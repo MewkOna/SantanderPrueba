@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HackerNewsBestStories</name>
+    </assembly>
+    <members>
+        <member name="M:HackerNewsBestStories.Api.Controllers.StoriesController.GetBestStories(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Get the best n stories from Hacker News
+            </summary>
+            <param name="n">Number of top stories to return (1-200)</param>
+            <param name="cancellationToken">Cancellation token</param>
+            <returns>Array of top stories sorted by score</returns>
+            <response code="200">Returns the list of top stories</response>
+            <response code="400">If n is invalid</response>
+            <response code="429">If rate limit exceeded</response>
+            <response code="503">If Hacker News API is unavailable</response>
+        </member>
+        <member name="M:HackerNewsBestStories.Api.Controllers.StoriesController.Health">
+            <summary>
+            Health check endpoint
+            </summary>
+        </member>
+    </members>
+</doc>
