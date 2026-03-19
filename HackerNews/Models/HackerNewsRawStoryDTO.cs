@@ -1,6 +1,5 @@
 ﻿
-// Models/HackerNewsRawStory.cs - Raw response from HackerNews API
-//
+
 using System.Text.Json.Serialization;
 
 public class HackerNewsRawStoryDTO
