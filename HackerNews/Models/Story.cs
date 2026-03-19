@@ -1,4 +1,4 @@
-﻿// Models/Story.cs - API Response Model
+
 using System.Text.Json.Serialization;
 
 namespace HackerNewsBestStories.Api.Models;
