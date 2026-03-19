@@ -1,4 +1,4 @@
-﻿// Services/Interfaces/IHackerNewsService.cs
+
 using HackerNewsBestStories.Api.Configuration;
 using HackerNewsBestStories.Api.Models;
 using Microsoft.Extensions.Caching.Memory;
