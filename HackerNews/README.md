@@ -4,12 +4,12 @@ A high-performance RESTful API that returns the top N stories from Hacker News, 
 
 ## Features
 
-- 🚀 High-performance parallel story fetching
-- 💾 Multi-level caching strategy
-- 🔒 Rate limiting to prevent abuse
-- 📊 Comprehensive logging and monitoring
-- ✅ Full test coverage
-- 📝 OpenAPI/Swagger documentation
+-  High-performance parallel story fetching
+-  Multi-level caching strategy
+-  Rate limiting to prevent abuse
+-  Comprehensive logging and monitoring
+- Full test coverage
+-  OpenAPI/Swagger documentation
 
 ## Prerequisites
 
